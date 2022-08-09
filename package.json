@@ -1,0 +1,29 @@
+{
+  "name": "upload-files-with-multer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jorge-William/upload-files-with-multer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jorge-William/upload-files-with-multer/issues"
+  },
+  "homepage": "https://github.com/Jorge-William/upload-files-with-multer#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
